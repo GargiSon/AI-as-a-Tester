@@ -1,6 +1,6 @@
 from groq import Groq
 
-client = Groq(api_key = "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")
+client = Groq(api_key = "Groq Pass key")
 completion = client.chat.completions.create(
     model="deepseek-r1-distill-llama-70b",
     messages=[
